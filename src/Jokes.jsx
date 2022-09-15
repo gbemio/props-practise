@@ -15,4 +15,10 @@ function Jokes(props) {
   );
 }
 
+// const cond1 = false
+// const cond2 = false
+// if(cond1 && console.log("Hello there")) {
+//     // this code will NOT run
+// }
+
 export default Jokes;
