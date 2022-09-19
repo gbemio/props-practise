@@ -8,8 +8,8 @@ function Jokes(props) {
   }
   return (
     <div>
-      <p className="setup">Setup: {props.setup}</p>
-      <p className="punchline">Punchline: {props.punchline}</p>
+      {props.setup && <h3> {props.setup} </h3>}
+      {isShown && <p> {props.punchline} </p>}
       <button onClick={toggleShown}>Show Punchline</button>
     </div>
   );
